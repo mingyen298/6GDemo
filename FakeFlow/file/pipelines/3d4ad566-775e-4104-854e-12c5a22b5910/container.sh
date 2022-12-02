@@ -1,0 +1,1 @@
+docker run -e JOB_ID=3d4ad566-775e-4104-854e-12c5a22b5910 --rm -v $PWD/file/pipelines/3d4ad566-775e-4104-854e-12c5a22b5910/main.py:/app/main.py 6g-demo:train python main.py
