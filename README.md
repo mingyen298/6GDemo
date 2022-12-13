@@ -6,6 +6,9 @@
 ```=
 cd install/go/
 bash install.sh
+echo "PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc
+echo "GOPATH=$HOME/go" >> ~/.bashrc
+source ~/.bashrc
 ```
 
 ### Install Docker Images
@@ -13,9 +16,6 @@ bash install.sh
 ```=
 cd install/images/
 bash install.sh
-echo "PATH=$PATH:/usr/local/go/bin" >> ~/.bashrc
-echo "GOPATH=$HOME/go" >> ~/.bashrc
-source ~/.bashrc
 ```
 
 ## 6GDemo 執行
